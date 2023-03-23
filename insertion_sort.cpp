@@ -2,6 +2,7 @@
 using namespace std;
 
 int main (){
+    cout<<"INSERTION SORT";
    int x; 
    cout<<"enter size of array";
    cin>>x;
