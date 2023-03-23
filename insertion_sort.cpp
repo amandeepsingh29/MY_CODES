@@ -2,7 +2,7 @@
 using namespace std;
 
 int main (){
-    cout<<"INSERTION SORT";
+    cout<<"INSERTION SORT"<<endl;
    int x; 
    cout<<"enter size of array";
    cin>>x;
@@ -16,10 +16,20 @@ int main (){
     for (int i = 0;i<x;i++){
         cout<<arr[i]<<" ";
     }
+int n = x;
+
+
 
 // inserton sorting
-    for(int i =)
-
+    for (int i =i;i<n;i++)
+    {
+        int current = arr[i];
+        int j = i-1;
+        while (current>arr[j] && j>=0 ){
+            arr[j+1]=arr[j];
+            j--;
+        }
+    }
 
 
 
@@ -36,8 +46,4 @@ int main (){
 
 
 
-
-
-cout<<endl<<"hello";
-cout<<endl<<"hello";
 }
