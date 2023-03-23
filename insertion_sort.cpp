@@ -17,19 +17,16 @@ int main (){
         cout<<arr[i]<<" ";
     }
 
-// sorting
-    for (int i=0;i<x-1;i++){
-        for (int j=i+1;j<x;j++)
-        {
-            if(arr[i]>arr[j])
-            {
-                int tem=arr[i];
-                arr[i]=arr[j];
-                arr[j]=tem;
-            }
+// inserton sorting
+    for(int i =)
 
-        }
-    }
+
+
+
+
+
+
+
 // display output
     cout<<endl;
     cout<<"your sorted array is -"<<endl;
