@@ -2,6 +2,7 @@
 using namespace std;
 
 int main (){
+    cout<<"BUBBLE SORT";
    int x; 
    cout<<"enter size of array";
    cin>>x;
