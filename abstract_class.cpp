@@ -3,7 +3,35 @@
 //  -->
 
 
+#include<iostream>
+using namespace std;
 
+
+class A{
+public:
+      virtual void sleep()=0;
+};
+class B:public A {
+    public:
+    void sleep(){
+        cout<<"sleep of B";
+    }
+
+};
+class C{
+    public:
+    void sleep(){
+        cout<<"sleep of C ";
+    }
+
+};
+
+
+int main(){
+    C d;
+    d.sleep();
+
+}
 
 
 
