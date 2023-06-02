@@ -47,4 +47,10 @@ class Blockchain:
             block+=1
         return True
                 
-        
+                
+# Part -> 2 Mininf our BlockChain
+# Creating a Web App
+app= Flask(__name__)
+
+#Creating a Blockchain
+blockchain = Blockchain()
